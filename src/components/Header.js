@@ -6,6 +6,9 @@ export default function Header(props) {
       <Link to="/">
         <div>People App</div>
       </Link>
+      <Link to="/people">
+        <div>People</div>
+      </Link>
     </nav>
   );
 }
